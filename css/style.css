@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 1px solid red;
+    font-size: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+    background-color:#201d1d;
+    min-height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.site-content {
+    max-width: 80vw;
+    margin: 10vh 10vw 10vh 10vw;
+}
+.box1{
+    display: flex;
+    justify-content:space-between;
+    min-height: 30vh;
+    background: black;
+}
+.box1a{
+}
+.box1b{
+    padding: 10px;
+    width: 50%;
+    min-height: 30%;
+    background: url(/images/familia.jpeg) center ;
+}
+.box2{
+    background:white;
+    padding: 60px 0 60px 0;
+}
+.box2 h1{
+    font: 30px;
+    color: #1c1c1c;
+    text-align-last: center;
+}
+.box2 h2{
+    font-size: 12px;
+    color: #1c1c1c;
+    padding: 30px;;
+}
+.myname{
+    margin:10px;
+}
+
+.box3{
+    background:white;
+    min-height: 30vh;;
+    display: block;
+}
+.box3a{
+    background:white;
+    display: flex;
+}
+.box3b{
+    background:white;
+    display: flex;
+}
+.box3c{
+    background:white;
+    display: flex;
+}
+.box3aicono{
+    margin: auto;
+    width: 20%;
+    min-height: 12vh;
+    background:url(/images/myicon1.png) center no-repeat;
+}
+.box3bicono{
+    margin: auto;
+    width: 20%;
+    min-height: 12vh;
+    background:url(/images/myicon2.png) center no-repeat;
+}
+.box3cicono{
+    margin: auto;
+    width: 20%;
+    min-height: 12vh;
+    background:url(/images/myicon3.png) center no-repeat;
+}
+
+.box3texto{
+    width: 70%;
+    font-size: 12px;
+    color: #1c1c1c;
+    padding: 30px;;
+    
+}
+.box4{
+    background:white;
+}
+.box5{
+    background:white;
+}
+.myname h1{
+    font-size: 70px;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    line-height: 1;
+    font-weight: 700;
+    border: 3px solid rgba(255,255,255,0.8);   
+}
+.myname h2{
+    color: #FFFFFF;
+    padding:40px 0 0 0;
+    font-size: 30px;
+}
+.myface{
+
+}
