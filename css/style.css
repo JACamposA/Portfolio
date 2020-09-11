@@ -13,7 +13,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
 	padding: 0;
-	border: 1px solid red;
     font-size: 100%;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	vertical-align: baseline;
@@ -44,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 .site-content {
-    max-width: 80vw;
+    max-width: 800px;
     margin: 10vh 10vw 10vh 10vw;
 }
 .box1{
@@ -53,8 +52,6 @@ table {
     min-height: 30vh;
     background: black;
 }
-.box1a{
-}
 .box1b{
     padding: 10px;
     width: 50%;
@@ -62,45 +59,55 @@ table {
     background: url(/images/familia.jpeg) center ;
 }
 .box2{
-    background:white;
+    background:#201d1d;
     padding: 60px 0 60px 0;
 }
+
 .box2 h1{
+    padding-top: 40px;
     font: 30px;
     color: #1c1c1c;
     text-align-last: center;
+    background:white;
 }
 .box2 h2{
     font-size: 12px;
     color: #1c1c1c;
-    padding: 30px;;
+    padding: 30px 30px 30px 30px;
+    background:white;
+    border-radius: 0 0 8% 8%;
 }
 .myname{
     margin:10px;
 }
 
 .box3{
-    background:rgb(204, 100, 100);
     min-height: 30vh;;
     display: block;
+    padding-bottom: 60px;
+    border-radius: 0 0 8% 8%;
 }
 .box3 h1{
-    padding-bottom: 10px;;
+    padding-bottom: 20px;
     font: 40px;
     color: #1c1c1c;
     text-align-last: center;
 }
 .box3a{
-    background:white;
+    background-color:rgb(210, 77, 87);
     display: flex;
+    margin-top: -3px;
+    padding-top: 3px;
 }
 .box3b{
-    background:white;
+    background:rgb(210, 77, 87);
     display: flex;
 }
 .box3c{
-    background:white;
+    background:rgb(210, 77, 87);
     display: flex;
+    padding-bottom: 35px;
+    border-radius: 0 0 8% 8%;
 }
 .box3aicono{
     margin: auto;
@@ -122,15 +129,71 @@ table {
 }
 
 .box3texto{
-    width: 70%;
+    width: 50%;
     font-size: 12px;
     color: #1c1c1c;
     padding: 30px;;
     
 }
 .box4{
-    background:white;
+    min-height: 30vh;;
+    display: block;
+    background: #201d1d;
 }
+.box4 h1{
+    padding-bottom: 10px;;
+    font: 40px;
+    color: #1c1c1c;
+    text-align-last: center;
+}
+.box4a{
+    background-color:rgb(25, 181, 254);
+    display: flex;
+    margin-top: -3px;
+    padding-top: 35px;
+}
+
+.box4b{
+    background:rgb(25, 181, 254);
+    padding-top: 35px;
+    display: flex;
+}
+.box4c{
+    background:rgb(25, 181, 254);
+    padding: 35px 0 35px 0;
+    display: flex;
+
+    border-radius: 0 0 8% 8%;
+}
+.box4aicono{
+    margin: auto;
+    width: 20%;
+    min-height: 12vh;
+    border-radius: 25%;
+}
+.box4bicono{
+    margin: auto;
+    width: 20%;
+    min-height: 12vh;
+    background:url(/images/myicon2.png) center no-repeat;
+    border-radius: 25%;
+}
+.box4cicono{
+    margin: auto;
+    width: 20%;
+    min-height: 12vh;
+    background:url(/images/myicon3.png) center no-repeat;
+    border-radius: 25%;
+}
+
+.box4texto{
+    width: 50%;
+    font-size: 12px;
+    color: #1c1c1c;
+    padding: 30px;;
+    
+}
+
 .box5{
     background:white;
 }
