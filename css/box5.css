@@ -1,0 +1,18 @@
+
+.box5{
+    min-height: 30vh;;
+    display: block;
+    background: #201d1d;
+}
+.box5 h1{
+    padding-bottom: 10px;;
+    font: 40px;
+    color: #1c1c1c;
+    text-align-last: center;
+}
+.box5a{
+    background-color:rgb(25, 181, 254);
+    display: flex;
+    margin-top: -3px;
+    padding-top: 35px;
+}
