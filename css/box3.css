@@ -30,19 +30,19 @@
     margin: auto;
     width: 20%;
     min-height: 12vh;
-    background:url(/images/myicon1.png) center no-repeat;
+    background:url(../images/myicon1.png) center no-repeat;
 }
 .box3bicono{
     margin: auto;
     width: 20%;
     min-height: 12vh;
-    background:url(/images/myicon2.png) center no-repeat;
+    background:url(../images/myicon2.png) center no-repeat;
 }
 .box3cicono{
     margin: auto;
     width: 20%;
     min-height: 12vh;
-    background:url(/images/myicon3.png) center no-repeat;
+    background:url(../images/myicon3.png) center no-repeat;
 }
 
 .box3texto{
