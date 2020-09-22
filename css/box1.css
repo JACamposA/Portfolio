@@ -5,12 +5,15 @@
     min-height: 30vh;
     background: black;
 }
-.box1b{
-    padding: 10px;
-    width: 50%;
-    min-height: 30%;
-    background: url(../images/familia.jpeg) center ;
-}
+@media only screen and (min-width: 700px) {
+    .box1b{
+        padding: 10px;
+        width: 50%;
+        min-height: 30%;
+        background: url(../images/familia.jpeg) center ;
+    }
+   }
+
 .myname{
     margin:10px;
 }
