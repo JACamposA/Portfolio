@@ -1,29 +1,29 @@
-.box5{
-    background:#201d1d;
-}
+
 .box5a{
     border-radius: 5px;
+    background: black;
 }
 
 .box5 h1{
     padding-top: 40px;
     font: 30px;
-    color: #1c1c1c;
+    color: white;
     text-align-last: center;
-    background:white;
+    background:black;
+    text-decoration: underline;
 }
 .box5 h2{
     font-size: 12px;
-    color: #1c1c1c;
+    color: white;
     padding: 30px 30px 60px 30px;
-    background:white;
+    background:black;
 }
 .box5 a{
-    color: rgb(0, 0, 0);
+    color: white;
     font-weight: bold;
     text-decoration: none;
     position: relative;
-    border-bottom: solid red 1px;
+    border-bottom: solid wheat 1px;
   }
   
   .box5 a::after{

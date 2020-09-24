@@ -2,7 +2,6 @@
 .box4{
     min-height: 30vh;;
     display: block;
-    background: #201d1d;
 }
 .box4 h1{
     padding-bottom: 10px;;
@@ -11,21 +10,18 @@
     text-align-last: center;
 }
 .box4a{
-    background-color:rgb(25, 181, 254);
+    background-color:white;
     display: flex;
-    margin-top: -3px;
-    padding-top: 35px;
 }
 .myButton {
-	background:linear-gradient(to bottom, #41678d 5%, #0688fa 100%);
+	background:black;
     border-radius:5px;
-    border: #201d1d 1px;
+    border: #4e4c4c 1px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Impact;
 	font-size:13px;
-	font-style:italic;
 	padding:11px 11px;
     text-decoration:none;
     align-self: center;
@@ -34,8 +30,8 @@
     float: right;
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
-	background-color:#0688fa;
+	background:black;
+	background-color:#2d2d2e;
 }
 .myButton:active {
 	position:relative;
@@ -45,12 +41,12 @@
         
 
 .box4b{
-    background:rgb(25, 181, 254);
+    background:white;
     padding-top: 35px;
     display: flex;
 }
 .box4c{
-    background:rgb(25, 181, 254);
+    background:white;
     padding: 35px 0 35px 0;
     display: flex;
 }

@@ -23,7 +23,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    line-height: 1;
+    line-height: 1.8;
     background-color:#201d1d;
     min-height: 100%;
 }
@@ -42,11 +42,25 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+.dividerbox{
+	height: 15vh;
+	background: white;
+	padding-top: 5vh;
+}
+.divider {
+	height: 1px;
+	width: 80%;
+	margin: auto;
+	background: gray;
+	margin: auto;
+ }
 
 @media only screen and (min-width: 700px) {
 	.site-content {
 		max-width: 700px;
 		margin: auto;
+	}
+	.body{
+		background-color:#201d1d ;
 	}
   }
