@@ -21,7 +21,6 @@
     background:white;
     display: flex;
 }
-@media only screen and (min-width: 700px) {
 .box3aicono{
     margin: auto;
     width: 20%;
@@ -48,32 +47,4 @@
     padding: 30px;;
     position: relative;
 }
-}
-@media only screen and (min-width: 700px) {
-.box3aicono{
-    margin: auto;
-    width: 20%;
-    min-height: 12vh;
-    background:url(../images/myicon1.png) center no-repeat;
-}
-.box3bicono{
-    margin: auto;
-    width: 20%;
-    min-height: 12vh;
-    background:url(../images/myicon2.png) center no-repeat;
-}
-.box3cicono{
-    margin: auto;
-    width: 20%;
-    min-height: 12vh;
-    background:url(../images/myicon3.png) center no-repeat;
-}
 
-.box3texto{
-    width: 50%;
-    font-size: 12px;
-    color: #1c1c1c;
-    padding: 30px;;
-    position: relative;
-}
-}

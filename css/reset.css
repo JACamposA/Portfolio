@@ -55,12 +55,11 @@ table {
 	margin: auto;
  }
 
-@media screen and (min-width: 700px) {
-	.site-content {
-		max-width: 700px;
-		margin: auto;
-	}
-	.body{
-		background-color:#201d1d ;
-	}
-  }
+.site-content {
+	max-width: 700px;
+	margin: auto;
+}
+.body{
+	background-color:#201d1d ;
+}
+  

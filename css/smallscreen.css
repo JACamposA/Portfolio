@@ -56,38 +56,37 @@
   }
   .box2b{
     margin: auto;
-    max-width: 50%;
+    max-width: 50vw;
     min-height: 30vh;
     background: url(../images/familia.jpeg) center white ;
     border: black 5px solid;
     border-radius: 5%;
-
   }
 
   .box3aicono{
     margin: 5%;
-    width: 15%;
+    width: 15vw;
     min-height: 10vh;
     background:url(../images/myicon1.png) center no-repeat;
     background-size: contain;
   }
     
   .box3bicono{
-    margin: 5%;
-     width: 15%;
+     margin: 5%;
+     width: 15vw;
      min-height: 10vh;
      background:url(../images/myicon2.png) center no-repeat;
      background-size: contain;
    }
    .box3cicono{
      margin: 5%;
-     width: 15%;
+     width: 15vw;
      min-height: 10vh;
      background:url(../images/myicon3.png) center no-repeat;
      background-size: contain; 
     }
   .box3texto{
-      width: 80%;
+      width: 80vw;
       font-size: 12px;
       color: #1c1c1c;
      padding: 30px;;
